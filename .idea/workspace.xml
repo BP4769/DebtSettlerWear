@@ -12,9 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48eed073-8f18-4054-806c-7e772d98edc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="48eed073-8f18-4054-806c-7e772d98edc3" name="Default Changelist" comment="Git popravki" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655754039560</updated>
     </task>
+    <task id="LOCAL-00001" summary="Git popravki">
+      <created>1660302970024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660302970024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +95,7 @@
       <path value="$PROJECT_DIR$/debtsettler_wear/DebtSettlerWear" />
       <path value="$PROJECT_DIR$/debtsettler_wear/Debtsettler-wear" />
     </ignored-roots>
+    <MESSAGE value="Git popravki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git popravki" />
   </component>
 </project>
