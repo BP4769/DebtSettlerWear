@@ -1,2 +1,2 @@
 # DebtSettlerWear
- Debttsettler ap for Wear OS
+ Debttsettler app for Wear OS
