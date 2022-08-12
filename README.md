@@ -27,4 +27,4 @@ Navodila za namestitev:
 
 6. Dodatno:
    1. Aplikacija je trenutno v načinu "demo", saj je za prikaz funkcionalnosti tako ne potrebujemo intenretne povezave, prav tako pa izdelkov na pametni uri ni možno vnašati na seznam kar pomeni da jih bo ob poskušanju funkcionlanosti posledično zmanjkalo. Demo verzija aplikacije podatke bere is JSON datotek zato posodobitev seznama (ikona za seznam) naloži vse izdelke tudi če so ti bili izbrisani.
-   2. Te nastavitve lahko spremenite v datoteki /lib/constants.dart, kjer zakomentirajte vrstico "const mode=demo" in odkomentirajte vrstico "const mode=release". Aplikacije se bo tako povezala na domač server, z žetonom uporabnika, ki ima nekaj vnosov in podatkov za prikaz.
+   2. Te nastavitve lahko spremenite v datoteki /lib/constants.dart, kjer zakomentirajte vrstico "const mode=demo" in odkomentirajte vrstico "const mode=release". Aplikacija se bo tako povezala na domač server, z žetonom uporabnika, ki ima nekaj vnosov in podatkov za prikaz. 
