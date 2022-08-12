@@ -1,0 +1,14 @@
+{
+  "tokens": [
+    {
+      "imeGospodinjstva": "Prule",
+      "GStoken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cFZHb3NJRCI6IjYyOGQwOWZlYzY1OTYxMGY4MzI1Y2E0OSIsImlkVXBvcmFibmlrYSI6IjYyOGQwOGE1YzY1OTYxMGY4MzI1Y2E0MSIsImlkR29zcG9kaW5qc3R2YSI6IjYyOGQwOWZlYzY1OTYxMGY4MzI1Y2E0OCIsImltZUdvc3BvZGluanN0dmFzIjoiUHJ1bGUiLCJleHAiOjMxNzEyNTU5ODA3MSwiaWF0IjoxNjU5ODc1NDkyfQ.LVqxtbn6wPL9d9AER8UJIlFJIQnOcNhpKYEe9g3KUyM",
+      "isAdmin": true
+    },
+    {
+      "imeGospodinjstva": "Maribor",
+      "GStoken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cFZHb3NJRCI6IjYyOWEzZGI1NmVhNDEzNDEwZDJiYzUzOSIsImlkVXBvcmFibmlrYSI6IjYyOGQwOGE1YzY1OTYxMGY4MzI1Y2E0MSIsImlkR29zcG9kaW5qc3R2YSI6IjYyOWEzZGI1NmVhNDEzNDEwZDJiYzUzOCIsImltZUdvc3BvZGluanN0dmFzIjoiTWFyaWJvciIsImV4cCI6MzE3MTI1NTk4MDcxLCJpYXQiOjE2NTk4NzU0OTJ9.HX9peij9-M9UG2pXcLQrT134mfLv628KffzJnv1lg9o",
+      "isAdmin": true
+    }
+  ]
+}

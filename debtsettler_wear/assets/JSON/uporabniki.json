@@ -1,0 +1,46 @@
+{
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cFZHb3NJRCI6IjYyOGQwOWZlYzY1OTYxMGY4MzI1Y2E0OSIsImlkVXBvcmFibmlrYSI6IjYyOGQwOGE1YzY1OTYxMGY4MzI1Y2E0MSIsImlkR29zcG9kaW5qc3R2YSI6IjYyOGQwOWZlYzY1OTYxMGY4MzI1Y2E0OCIsImltZUdvc3BvZGluanN0dmFzIjoiUHJ1bGUiLCJleHAiOjMxNzEyNTU5ODA3MSwiaWF0IjoxNjU5ODc1NDkyfQ.LVqxtbn6wPL9d9AER8UJIlFJIQnOcNhpKYEe9g3KUyM": [
+      {
+        "imeUporabnika": "Blaz",
+        "barvaUporabnika": "333444",
+        "idUporabnika": "628d08a5c659610f8325ca41",
+        "upVGosID": "628d09fec659610f8325ca49",
+        "stanjeDenarja": 114.94999999999999,
+        "porabljenDenar": 305.67999999999995,
+        "zamrznjenStatus": false,
+        "deleteStatus": false
+      },
+      {
+        "imeUporabnika": "Mark",
+        "barvaUporabnika": "333444",
+        "idUporabnika": "628d0890c659610f8325ca3f",
+        "upVGosID": "628d0d6ec659610f8325ca50",
+        "stanjeDenarja": -44.94,
+        "porabljenDenar": 91,
+        "zamrznjenStatus": false,
+        "deleteStatus": false
+      },
+      {
+        "imeUporabnika": "Matjaz",
+        "barvaUporabnika": "333444",
+        "idUporabnika": "628d08f3c659610f8325ca43",
+        "upVGosID": "628d0d77c659610f8325ca54",
+        "stanjeDenarja": -70.01,
+        "porabljenDenar": 0,
+        "zamrznjenStatus": false,
+        "deleteStatus": false
+      }
+  ],
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cFZHb3NJRCI6IjYyOWEzZGI1NmVhNDEzNDEwZDJiYzUzOSIsImlkVXBvcmFibmlrYSI6IjYyOGQwOGE1YzY1OTYxMGY4MzI1Y2E0MSIsImlkR29zcG9kaW5qc3R2YSI6IjYyOWEzZGI1NmVhNDEzNDEwZDJiYzUzOCIsImltZUdvc3BvZGluanN0dmFzIjoiTWFyaWJvciIsImV4cCI6MzE3MTI1NTk4MDcxLCJpYXQiOjE2NTk4NzU0OTJ9.HX9peij9-M9UG2pXcLQrT134mfLv628KffzJnv1lg9o": [
+    {
+      "imeUporabnika": "Blaz",
+      "barvaUporabnika": "333444",
+      "idUporabnika": "628d08a5c659610f8325ca41",
+      "upVGosID": "629a3db56ea413410d2bc539",
+      "stanjeDenarja": 0,
+      "porabljenDenar": 42,
+      "zamrznjenStatus": false,
+      "deleteStatus": false
+    }
+  ]
+}
