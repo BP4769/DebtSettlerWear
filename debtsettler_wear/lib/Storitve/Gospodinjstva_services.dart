@@ -1,18 +1,18 @@
 import 'dart:convert';
-import 'package:debtsettler_wear/Models/Gospodinjstvo_model.dart';
-import 'package:debtsettler_wear/Models/Uporabnik_model.dart';
+import 'package:debtsettler_wear/Modeli/Gospodinjstvo_model.dart';
+import 'package:debtsettler_wear/Modeli/Uporabnik_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
-import 'package:debtsettler_wear/constants.dart' as Constants;
+import 'package:debtsettler_wear/konstante.dart' as Constants;
 
 
-Future<List<GospodinjstvoModel>> preberiGospodinjstva() async {
+Future<List<Gospodinjstvo>> preberiGospodinjstva() async {
   Map<String, dynamic> body = jsonDecode(await rootBundle.loadString('assets/JSON/gospodinjstva.json'));
   List<dynamic> data = body["tokens"];
 
-  List<GospodinjstvoModel> posts = data
-      .map((dynamic item) => GospodinjstvoModel.fromJson(item),)
+  List<Gospodinjstvo> posts = data
+      .map((dynamic item) => Gospodinjstvo.fromJson(item),)
       .toList();
 
   return posts;
@@ -20,7 +20,7 @@ Future<List<GospodinjstvoModel>> preberiGospodinjstva() async {
 
 
 // API KLIC ZA PRIDOBITEV VSEH GOSPODINJSTEV PRIJAVLJENEGA UPORABNIKA
-Future<List<GospodinjstvoModel>> getGospodinjstva() async {
+Future<List<Gospodinjstvo>> getGospodinjstva() async {
 
   var headers = {
     'Authorization': 'Bearer ${Constants.zeton}'
@@ -36,8 +36,8 @@ Future<List<GospodinjstvoModel>> getGospodinjstva() async {
     Map<String, dynamic> body = jsonDecode(await response.stream.bytesToString());
     List<dynamic> data = body["tokens"];
 
-    List<GospodinjstvoModel> posts = data
-        .map((dynamic item) => GospodinjstvoModel.fromJson(item),)
+    List<Gospodinjstvo> posts = data
+        .map((dynamic item) => Gospodinjstvo.fromJson(item),)
         .toList();
 
     return posts;

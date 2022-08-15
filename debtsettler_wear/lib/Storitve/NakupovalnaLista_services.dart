@@ -1,11 +1,11 @@
 
 import 'dart:convert';
-import 'package:debtsettler_wear/Models/Izdelek_model.dart';
-import 'package:debtsettler_wear/Models/Uporabnik_model.dart';
+import 'package:debtsettler_wear/Modeli/Izdelek_model.dart';
+import 'package:debtsettler_wear/Modeli/Uporabnik_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
-import 'package:debtsettler_wear/constants.dart' as Constants;
+import 'package:debtsettler_wear/konstante.dart' as Constants;
 
 
 Future<List<Izdelek>> preberiIzdelke({required String gospodinjstvoKey}) async {

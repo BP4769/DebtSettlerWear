@@ -1,11 +1,11 @@
-import 'package:debtsettler_wear/Models/Izdelek_model.dart';
-import 'package:debtsettler_wear/Models/Uporabnik_model.dart';
-import 'package:debtsettler_wear/Screens/PrikazUporabnikovScreen.dart';
-import 'package:debtsettler_wear/Services/NakupovalnaLista_services.dart';
-import 'package:debtsettler_wear/Services/Uporabniki_services.dart';
+import 'package:debtsettler_wear/Modeli/Izdelek_model.dart';
+import 'package:debtsettler_wear/Modeli/Uporabnik_model.dart';
+import 'package:debtsettler_wear/Zasloni/PrikazUporabnikovScreen.dart';
+import 'package:debtsettler_wear/Storitve/NakupovalnaLista_services.dart';
+import 'package:debtsettler_wear/Storitve/Uporabniki_services.dart';
 import 'package:flutter/material.dart';
 import 'package:wear/wear.dart';
-import 'package:debtsettler_wear/constants.dart' as Constants;
+import 'package:debtsettler_wear/konstante.dart' as Constants;
 
 
 class PrikazNakupoavlneListeScreen extends StatefulWidget {

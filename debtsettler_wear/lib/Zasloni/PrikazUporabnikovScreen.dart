@@ -1,8 +1,8 @@
-import 'package:debtsettler_wear/Models/Uporabnik_model.dart';
-import 'package:debtsettler_wear/Services/Uporabniki_services.dart';
+import 'package:debtsettler_wear/Modeli/Uporabnik_model.dart';
+import 'package:debtsettler_wear/Storitve/Uporabniki_services.dart';
 import 'package:flutter/material.dart';
 import 'package:wear/wear.dart';
-import 'package:debtsettler_wear/constants.dart' as Constants;
+import 'package:debtsettler_wear/konstante.dart' as Constants;
 
 
 class PrikazUporabnikovScreen extends StatefulWidget {

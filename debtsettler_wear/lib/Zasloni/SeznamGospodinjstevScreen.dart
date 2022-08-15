@@ -1,12 +1,12 @@
-import 'package:debtsettler_wear/Models/Gospodinjstvo_model.dart';
-import 'package:debtsettler_wear/Models/Uporabnik_model.dart';
-import 'package:debtsettler_wear/Screens/PrikazNakupovalneListeScreen.dart';
-import 'package:debtsettler_wear/Screens/PrikazUporabnikovScreen.dart';
-import 'package:debtsettler_wear/Services/Gospodinjstva_services.dart';
-import 'package:debtsettler_wear/Services/Uporabniki_services.dart';
+import 'package:debtsettler_wear/Modeli/Gospodinjstvo_model.dart';
+import 'package:debtsettler_wear/Modeli/Uporabnik_model.dart';
+import 'package:debtsettler_wear/Zasloni/PrikazNakupovalneListeScreen.dart';
+import 'package:debtsettler_wear/Zasloni/PrikazUporabnikovScreen.dart';
+import 'package:debtsettler_wear/Storitve/Gospodinjstva_services.dart';
+import 'package:debtsettler_wear/Storitve/Uporabniki_services.dart';
 import 'package:flutter/material.dart';
 import 'package:wear/wear.dart';
-import 'package:debtsettler_wear/constants.dart' as Constants;
+import 'package:debtsettler_wear/konstante.dart' as Constants;
 
 
 class SeznamGospodinjstevScreen extends StatefulWidget {
@@ -17,6 +17,23 @@ class SeznamGospodinjstevScreen extends StatefulWidget {
 }
 
 class _SeznamGospodinjstevScreenState extends State<SeznamGospodinjstevScreen> {
+
+  late Future<List<Gospodinjstvo>> gospodinjstva;
+
+  @override
+  void initState() {
+    super.initState();
+
+    // initial load
+    gospodinjstva = Constants.mode == "demo" ? preberiGospodinjstva() : getGospodinjstva();
+  }
+
+  Future<void> _refreshList() async {
+    // reload
+    setState(() {
+      gospodinjstva = Constants.mode == "demo" ? preberiGospodinjstva() : getGospodinjstva();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -29,11 +46,11 @@ class _SeznamGospodinjstevScreenState extends State<SeznamGospodinjstevScreen> {
           height: screenSize.height,
           width: screenSize.width,
           child: Center(
-              child: FutureBuilder<List<GospodinjstvoModel>>(
-                future: Constants.mode == "demo" ? preberiGospodinjstva() : getGospodinjstva(),
+              child: FutureBuilder<List<Gospodinjstvo>>(
+                future: gospodinjstva,
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.done && snapshot.data != null) {
-                    final List<GospodinjstvoModel>? posts = snapshot.data;
+                    final List<Gospodinjstvo>? posts = snapshot.data;
                     return Column(
                       children: [
                         SizedBox(
@@ -44,13 +61,11 @@ class _SeznamGospodinjstevScreenState extends State<SeznamGospodinjstevScreen> {
                               borderRadius: BorderRadius.circular(50),
                             ),
                             color: Colors.transparent,
-                            child: const Center(
-                              child: Text(
-                                "Gospodinjtsva:",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                ),
-                                textAlign: TextAlign.center,
+                            child: Center(
+                              child: IconButton(
+                                color: Colors.blue,
+                                icon: const Icon(Icons.home, color: Colors.white,),
+                                onPressed: () { _refreshList();},
                               ),
                             )
                           ),

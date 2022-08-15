@@ -1,4 +1,4 @@
-class Uporabnik {
+ class Uporabnik {
   String uporabnikId;
   String upVGosID;
   String ime;

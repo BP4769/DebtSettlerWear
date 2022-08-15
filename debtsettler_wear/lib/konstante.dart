@@ -10,7 +10,7 @@ const zeton = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZFVwb3JhYm5pa2EiOiI2Mjhh
 //const zeton = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZFVwb3JhYm5pa2EiOiI2MjhkMDhhNWM2NTk2MTBmODMyNWNhNDEiLCJlbWFpbCI6ImJsYXpAZ21haWwuY29tIiwiaW1lIjoiQmxheiIsImV4cCI6MzE3MTI1NTk4MDcxLCJpYXQiOjE2NTM0MTAyMjN9.JDZpnNGSWITz7glDjlu9BdzqGt5ddoITPGir9YdYGQk";
 
 // DEMO MODE
-const mode = "demo";
+//const mode = "demo";
 
 // RELEASE MODE
-//const mode = "release";
+const mode = "release";

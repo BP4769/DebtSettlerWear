@@ -1,6 +1,6 @@
-import 'package:debtsettler_wear/Screens/PrikazUporabnikovScreen.dart';
-import 'package:debtsettler_wear/Screens/AmbientWatchFace.dart';
-import 'package:debtsettler_wear/Screens/SeznamGospodinjstevScreen.dart';
+import 'package:debtsettler_wear/Zasloni/PrikazUporabnikovScreen.dart';
+import 'package:debtsettler_wear/Zasloni/AmbientWatchFace.dart';
+import 'package:debtsettler_wear/Zasloni/SeznamGospodinjstevScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:wear/wear.dart';
 

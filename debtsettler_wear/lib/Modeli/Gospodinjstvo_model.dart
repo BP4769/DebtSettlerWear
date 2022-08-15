@@ -1,16 +1,16 @@
-class GospodinjstvoModel {
+class Gospodinjstvo {
   String imeGospodinjstva;
   String gsToken;
   bool isAdmin;
 
-  GospodinjstvoModel({
+  Gospodinjstvo({
     required this.imeGospodinjstva,
     required this.gsToken,
     this.isAdmin = false,
   });
 
-  factory GospodinjstvoModel.fromJson(Map<String, dynamic> parsedJson) {
-    return GospodinjstvoModel(
+  factory Gospodinjstvo.fromJson(Map<String, dynamic> parsedJson) {
+    return Gospodinjstvo(
       imeGospodinjstva: parsedJson['imeGospodinjstva'],
       gsToken: parsedJson['GStoken'],
       isAdmin: parsedJson['isAdmin'],
